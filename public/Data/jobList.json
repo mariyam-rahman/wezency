@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Technical Database Engineer",
+    "salary": "100K - 150K (Per Month)",
+    "companyTitle": "Google LLC",
+    "companyLogo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    "jobType": ["Remote", "Full Time"],
+    "contact": {
+      "phone": "01750-00 00 00",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+      "email": "info@gmail.com"
+    },
+    "description": "A technical database engineer is responsible for designing, implementing, and maintaining large-scale databases for an organization. This includes designing database schemas, optimizing database performance, and ensuring data integrity and security.",
+    "responsibility": "Collaborating with cross-functional teams: Database engineers often work closely with software engineers, data scientists, and business analysts to ensure that databases are aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educationalRequirement": "Bachelor's degree in computer science or related field.",
+    "experience": "3+ years of experience in database engineering or related field."
+  },
+  {
+    "id": 2,
+    "title": "DevOps Engineer",
+    "salary": "120K - 160K (Per Year)",
+    "companyTitle": "Netflix, Inc.",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1024px-Netflix_2015_logo.svg.png",
+    "jobType": ["Onsite", "Full Time"],
+    "contact": {
+      "phone": "555-555-5555",
+      "address": "Los Gatos, CA",
+      "email": "careers@netflix.com"
+    },
+    "description": "A DevOps engineer is responsible for designing, implementing, and maintaining the infrastructure and tools necessary for software development and deployment. This includes automating software builds and deployments, managing servers and services, and monitoring system performance and reliability.",
+    "responsibility": "Collaborating with cross-functional teams: DevOps engineers often work closely with software engineers, QA, and operations teams to ensure that software products are developed and deployed efficiently and reliably. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educationalRequirement": "Bachelor's degree in computer science or related field.",
+    "experience": "3+ years of experience in DevOps or related field."
+  },
+  {
+    "id": 3,
+    "title": "Mobile App Developer",
+    "salary": "100K - 130K (Per Year)",
+    "companyTitle": "Apple Inc.",
+    "companyLogo": "https://www.apple.com/ac/globalnav/5/en_US/images/globalnav/apple/image_large.svg",
+    "jobType": ["Onsite", "Full Time"],
+    "contact": {
+      "phone": "555-123-4567",
+      "address": "Cupertino, CA, USA",
+      "email": "jobs@apple.com"
+    },
+    "description": "A mobile app developer is responsible for designing and developing mobile applications for iOS or Android platforms. This includes writing code in languages such as Swift, Java, and Kotlin.",
+    "responsibility": "Collaborating with designers: Mobile app developers work closely with designers to implement the visual and interaction design of mobile apps. You will need to be able to effectively communicate your requirements and understand the needs of the design team.",
+    "educationalRequirement": "Bachelor's degree in Computer Science or related field.",
+    "experience": "3-5 years of experience in mobile app development."
+  },
+  {
+    "id": 4,
+    "title": "Frontend Developer",
+    "salary": "80K - 100K (Per Year)",
+    "companyTitle": "Facebook, Inc.",
+    "companyLogo": "https://www.facebook.com/images/fb_icon_325x325.png",
+    "jobType": ["Remote", "Full Time"],
+    "contact": {
+      "phone": "555-987-6543",
+      "address": "Menlo Park, CA, USA",
+      "email": "jobs@facebook.com"
+    },
+    "description": "A frontend developer is responsible for designing and implementing the client-side of web applications. This includes writing HTML, CSS, and JavaScript code that is optimized for performance and usability.",
+    "responsibility": "Working with UX designers: Frontend developers work closely with UX designers to ensure that the user interface is visually appealing and easy to use. You will need to be able to effectively communicate your design ideas and collaborate on the implementation of the interface.",
+    "educationalRequirement": "Bachelor's degree in Computer Science or related field.",
+    "experience": "2-4 years of experience in frontend development."
+  },
+  {
+    "id": 5,
+    "title": "Data Scientist",
+    "salary": "120K - 160K (Per Year)",
+    "companyTitle": "Facebook, Inc.",
+    "companyLogo": "https://www.facebook.com/images/fb_icon_325x325.png",
+    "jobType": ["Remote", "Full Time"],
+    "contact": {
+      "phone": "555-555-5555",
+      "address": "Menlo Park, CA",
+      "email": "careers@facebook.com"
+    },
+    "description": "A data scientist is responsible for collecting, analyzing, and interpreting large sets of data to inform business decisions. This includes designing and implementing data models, developing algorithms, and creating visualizations to communicate findings.",
+    "responsibility": "Collaborating with cross-functional teams: Data scientists often work closely with product managers, software engineers, and other stakeholders to understand business needs and identify opportunities for data-driven insights. You will need to be able to effectively communicate your findings to both technical and non-technical audiences.",
+    "educationalRequirement": "Master's degree or PhD in computer science, statistics, or a related field.",
+    "experience": "3+ years of experience in data science or related field."
+  },
+  {
+    "id": 6,
+    "title": "Software Engineer",
+    "salary": "80K - 120K (Per Year)",
+    "companyTitle": "Microsoft Corporation",
+    "companyLogo": "https://1000logos.net/wp-content/uploads/2016/11/Microsoft-Logo.png",
+    "jobType": ["Onsite", "Full Time"],
+    "contact": {
+      "phone": "555-555-5555",
+      "address": "Redmond, WA",
+      "email": "careers@microsoft.com"
+    },
+    "description": "A software engineer is responsible for designing, developing, and testing software applications for a variety of platforms and devices. This includes writing code, debugging software, and collaborating with other engineers to ensure that software products are of high quality and reliability.",
+    "responsibility": "Collaborating with cross-functional teams: Software engineers often work closely with product managers, UX designers, and other stakeholders to define product features and requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educationalRequirement": "Bachelor's degree in computer science or related field.",
+    "experience": "2+ years of experience in software engineering or related field."
+  }
+]

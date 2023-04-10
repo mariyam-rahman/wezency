@@ -8,6 +8,7 @@ import Statistics from "./Components/Statistics/Statistics";
 import AppliedJobs from "./Components/Applied-Jobs/AppliedJobs";
 import Blog from "./Components/Blog/Blog";
 import WebContainer from "./Components/WebContainer/WebContainer";
+import Details from "./Components/Details/Details";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "blog",
         element: <Blog></Blog>,
+      },
+      {
+        path: "details",
+        element: <Details></Details>,
       },
     ],
   },
