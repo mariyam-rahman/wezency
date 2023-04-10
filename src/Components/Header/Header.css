@@ -1,0 +1,19 @@
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  margin-right: 30px;
+  color: #7e90fe;
+  font-weight: 700;
+}
+.primary-btn {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
