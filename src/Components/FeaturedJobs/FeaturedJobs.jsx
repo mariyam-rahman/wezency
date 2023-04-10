@@ -97,6 +97,9 @@ const FeaturedJobs = () => {
           </div>
         </div>
       </div>
+      <div className="text-center py-6">
+        <button className="primary-btn ">See All Jobs</button>
+      </div>
     </div>
   );
 };
