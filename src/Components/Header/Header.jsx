@@ -4,7 +4,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <nav className="header">
+    <nav className="header container mx-auto">
       <h2 className="font-extrabold text-4xl">Wezency</h2>
       <div>
         <Link to="/">Home</Link>
