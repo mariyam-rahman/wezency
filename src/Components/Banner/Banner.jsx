@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div>
       <div className="flex justify-between mb-8">
-        <div className="text-left  ">
+        <div className="text-left">
           <h1 className="text-7xl font-extrabold ">
             One Step <br /> Closer To Your <br />{" "}
             <span style={{ color: "#7E90FE" }}>Dream Job</span>
