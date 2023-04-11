@@ -7,16 +7,13 @@ const Details = () => {
   const [currentJob, setCurrentJob] = useState();
 
   const fetchJobWithId = async () => {
-    const allJobs = await fetch("/Data/jobList.json").then((res) => res.json());
-
-    console.log(allJobs);
+    const allJobs = await fetch("jobList.json").then((res) => res.json());
 
     const current = allJobs.find((job) => {
       return job.id == id;
     });
 
     setCurrentJob(current);
-    console.log(currentJob);
   };
 
   useEffect(() => {
