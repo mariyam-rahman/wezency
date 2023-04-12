@@ -4,10 +4,10 @@ import img from "./../../assets/All Images/P3OLGJ1 copy 1.png";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="p-4">
       <div className="flex justify-between mb-8">
         <div className="text-left">
-          <h1 className="text-7xl font-extrabold ">
+          <h1 className="text-5xl font-extrabold ">
             One Step <br /> Closer To Your <br />{" "}
             <span style={{ color: "#7E90FE" }}>Dream Job</span>
           </h1>

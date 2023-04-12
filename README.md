@@ -4,20 +4,20 @@ Welcome to Wezency App! This app is developed to showcase my skills.
 
 ## How to Start the application in local
 
-- Clone the repository using git clone https://--------
+- Clone the repository using git clone https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-mariyam-rahman.git
 - Install the dependencies using `npm install`
 - Start the server using `npm run dev`
-- Navigate to http://localhost:------ in your browser
+- Navigate to http://localhost:5174/ in your browser
 
 ## Production App URL
 
-The production app is hosted at https://-----------
+The production app is hosted at https://tranquil-salmiakki-1d088e.netlify.app
 
 ## Features
 
 The following is an example test to explain all the functionalities and features of My Awesome App:
 
-- Open the application at https://------------
+- Open the application at https://tranquil-salmiakki-1d088e.netlify.app
 - In the home page you will find some jobs from top companies.
 - You will see "Show Details" button which will naviagate you to the details page of the job.
 - You can click "Show All Jobs" button to see all the jobs.
