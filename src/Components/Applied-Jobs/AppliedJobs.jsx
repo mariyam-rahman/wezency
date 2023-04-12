@@ -1,8 +1,12 @@
 import { data } from "autoprefixer";
 import React, { useEffect, useState } from "react";
-
+import { Link } from "react-router-dom";
 const AppliedJobs = () => {
   const [appliedJobs, setAppliedJobs] = useState([]);
+
+  const [currentFilter, setCurrentFilter] = useState(null);
+
+  const [filteredAppliedJobs, setFilteredAppliedJobs] = useState([]);
 
   const init = async () => {
     {
@@ -29,18 +33,43 @@ const AppliedJobs = () => {
     init();
   }, []);
 
+  useEffect(() => {
+    if (appliedJobs?.length < 1) return;
+
+    if (currentFilter == "remote") {
+      setFilteredAppliedJobs(
+        appliedJobs.filter((e) => e.jobType.includes("Remote"))
+      );
+    } else if (currentFilter == "onsite") {
+      setFilteredAppliedJobs(
+        appliedJobs.filter((e) => e.jobType.includes("Onsite"))
+      );
+    } else {
+      setFilteredAppliedJobs(appliedJobs);
+    }
+  }, [appliedJobs, currentFilter]);
+
   return (
     <div className="container mx-auto my-20">
       <div className="text-right">
-        <select className="select select-bordered w-full max-w-xs">
+        <select
+          onClick={(e) => {
+            console.log(e.target.value);
+            setCurrentFilter(e.target.value);
+          }}
+          className="select select-bordered w-full max-w-xs"
+        >
           <option selected disabled>
             Filter By
           </option>
-          <option>Remote</option>
-          <option>Onsite</option>
+          <option value="shit" selected>
+            All
+          </option>
+          <option value="remote">Remote</option>
+          <option value="onsite">Onsite</option>
         </select>
       </div>
-      {appliedJobs.map((job) => (
+      {filteredAppliedJobs.map((job) => (
         <JobItem job={job} key={job.id} />
       ))}
     </div>
@@ -74,7 +103,9 @@ const JobItem = ({ job }) => {
         </div>
       </div>
       <div>
-        <button className="primary-btn ">View Details</button>
+        <Link to={`/details/${job.id}`} className="primary-btn mt-4 ">
+          View Details
+        </Link>
       </div>
     </div>
   );
