@@ -9,6 +9,7 @@ import AppliedJobs from "./Components/Applied-Jobs/AppliedJobs";
 import Blog from "./Components/Blog/Blog";
 import WebContainer from "./Components/WebContainer/WebContainer";
 import Details from "./Components/Details/Details";
+import Notfound from "./Components/Notfound";
 
 const router = createBrowserRouter([
   {
@@ -20,20 +21,24 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "statistics",
+        path: "/statistics",
         element: <Statistics></Statistics>,
       },
       {
-        path: "applied-jobs",
+        path: "/applied-jobs",
         element: <AppliedJobs></AppliedJobs>,
       },
       {
-        path: "blog",
+        path: "/blog",
         element: <Blog></Blog>,
       },
       {
-        path: "details/:id",
+        path: "/details/:id",
         element: <Details></Details>,
+      },
+      {
+        path: "/*",
+        element: <Notfound></Notfound>,
       },
     ],
   },
