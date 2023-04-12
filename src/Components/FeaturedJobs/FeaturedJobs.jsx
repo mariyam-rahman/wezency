@@ -1,13 +1,27 @@
 import React, { useState, useEffect } from "react";
 import Details from "../Details/Details";
-
+import { Link } from "react-router-dom";
 const FeaturedJobs = () => {
-  const [jobs, setJobs] = useState([]);
+  const [allJobs, setAllJobs] = useState([]);
+
+  const [showAll, setShowAll] = useState(false);
+
+  const [showableJobs, setShowableJobs] = useState([]);
+
   useEffect(() => {
     fetch("jobList.json")
       .then((res) => res.json())
-      .then((data) => setJobs(data));
+      .then((data) => setAllJobs(data));
   }, []);
+
+  useEffect(() => {
+    if (showAll) {
+      setShowableJobs(allJobs);
+    } else {
+      setShowableJobs(allJobs.slice(0, 4));
+    }
+  }, [allJobs, showAll]);
+
   return (
     <div>
       <h2 className="text-5xl font-bold text-center">Featured Jobs</h2>
@@ -16,12 +30,19 @@ const FeaturedJobs = () => {
         need. Its your future
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:grid-cols-2 p-10 sm:p-0 mt-16">
-        {jobs.map((job) => (
+        {showableJobs.map((job) => (
           <EachJob key={job.id} job={job}></EachJob>
         ))}
       </div>
       <div className="text-center py-6">
-        <button className="primary-btn ">See All Jobs</button>
+        <button
+          className="primary-btn"
+          onClick={() => {
+            setShowAll(!showAll);
+          }}
+        >
+          {showAll ? "Show less" : "See All Jobs"}
+        </button>
       </div>
     </div>
   );
@@ -68,13 +89,10 @@ export function EachJob({ job }) {
               <p>{salary}</p>
             </div>
           </div>
-          <div>
-            <button
-              onClick={() => console.log(id)}
-              className="primary-btn mt-4 "
-            >
+          <div className="mt-5">
+            <Link to={`details/${id}`} className="primary-btn mt-4 ">
               View Details
-            </button>
+            </Link>
           </div>
         </div>
       </div>
