@@ -58,19 +58,12 @@ export function EachJob({ job }) {
         <h2 className="card-title mt-3">{title}</h2>
         <p>{companyTitle}</p>
         <div className=" justify-start ">
-          <button className="border-2 text-violet-600 border-indigo-500 rounded px-4 mr-5  mb-3">
-            Remote
-          </button>
-          <button
-            className="
-                border-2
-                text-violet-600
-                border-indigo-500
-                rounded
-                px-4"
-          >
-            Full Time
-          </button>
+          {job?.jobType?.map((t) => (
+            <button className="border-2 text-violet-600 border-indigo-500 rounded px-4 mr-5  mb-3">
+              {t}
+            </button>
+          ))}
+
           <div className="flex gap-5">
             <div className="flex gap-2">
               <img
@@ -78,7 +71,7 @@ export function EachJob({ job }) {
                 src="/src/assets/Icons/Location Icon.png"
                 alt=""
               />
-              <p>Dhaka, Bangladesh</p>
+              <p>{job?.contact?.address}</p>
             </div>
             <div className="flex gap-2">
               <img

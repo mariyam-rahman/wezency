@@ -52,27 +52,24 @@ const JobItem = ({ job }) => {
     <div className="flex justify-between items-center border-2 rounded p-8 my-5 ">
       <div className="flex gap-10 items-center">
         <div className="p-16 rounded bg-slate-100">
-          <img src="/src/assets/Logo/google-1-1 1.png" alt="" />
+          <img
+            src={job.companyLogo}
+            alt=""
+            style={{ width: "100px", height: "100%", objectFit: "cover" }}
+          />
         </div>
         <div className="leading-loose">
           <h3>{job.title}</h3>
-          <p>Google LLC</p>
-          <button className="border-2 text-violet-600 border-indigo-500 rounded px-2 mr-3">
-            Remote
-          </button>
-          <button
-            className="
-          border-2
-          text-violet-600
-          border-indigo-500
-          rounded
-          px-2"
-          >
-            Full Time
-          </button>
+          <p>{job.companyTitle}</p>
+          {job?.jobType?.map((t) => (
+            <button className="border-2 text-violet-600 border-indigo-500 rounded px-4 mr-5  mb-3">
+              {t}
+            </button>
+          ))}
+
           <div className="flex gap-3">
-            <p>Dhaka, Bangladesh</p>
-            <p>Salary : 100K - 150K</p>
+            <p>{job.contact?.address}</p>
+            <p>{job.salary}</p>
           </div>
         </div>
       </div>
