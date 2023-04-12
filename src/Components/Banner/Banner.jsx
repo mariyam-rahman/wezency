@@ -1,5 +1,7 @@
 import React from "react";
 
+import img from "./../../assets/All Images/P3OLGJ1 copy 1.png";
+
 const Banner = () => {
   return (
     <div>
@@ -17,7 +19,7 @@ const Banner = () => {
           <button className="primary-btn">Get Started</button>
         </div>
         <div>
-          <img src="/src/assets/All Images/P3OLGJ1 copy 1.png" alt="" />
+          <img src={img} alt="" />
         </div>
       </div>
     </div>
