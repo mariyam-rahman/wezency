@@ -1,26 +1,30 @@
 ## Wezency
 
-Welcome to Wezency App! This app is developed to showcase my skills.
+Welcome to Wezency, a dynamic application designed to enhance your job search and provide a seamless user experience.
 
-## How to Start the application in local
+## Getting Started Locally
 
-- Clone the repository using git clone https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-mariyam-rahman.git
-- Install the dependencies using `npm install`
-- Start the server using `npm run dev`
-- Navigate to http://localhost:5174/ in your browser
+To experience Wezency on your local machine, follow these simple steps:
+
+1. Clone the repository by running git clone https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-mariyam-rahman.git
+2. Install the necessary dependencies with npm install
+3. Start the server using npm run dev
+4. Open your preferred browser and visit http://localhost:5174/
 
 ## Production App URL
 
-The production app is hosted at https://tranquil-salmiakki-1d088e.netlify.app
+For a live version of Wezency, visit our hosted application at https://tranquil-salmiakki-1d088e.netlify.app
 
-## Features
+## Explore the Features
 
-The following is an example test to explain all the functionalities and features of My Awesome App:
+Wezency offers a wide range of features to enhance your job search experience. Here's a quick overview:
 
-- Open the application at https://tranquil-salmiakki-1d088e.netlify.app
-- In the home page you will find some jobs from top companies.
-- You will see "Show Details" button which will naviagate you to the details page of the job.
-- You can click "Show All Jobs" button to see all the jobs.
-- If you go to the job details page you will see "Apply Now" button. You can apply to job by pressing the button.
-- You will find all the jobs that youve applied in "Applied Job" page from the nav bar.
-- You will see a chart in the "Statistics" page.
+- Home Page: Discover handpicked job listings from top companies.
+- Job Details: Dive deeper into each job by clicking the "Show Details" button.
+- All Jobs: View all available jobs with a single click on the "Show All Jobs" button.
+- Apply Now: Submit your application directly from the job details page with the "Apply Now" button.
+- Applied Job Tracker: Keep track of the jobs you have applied for on the "Applied Job" page.
+- Sort by Location: Filter job listings based on onsite or remote options.
+- Statistics: Gain insights into the job market with visual charts and data on the "Statistics" page.
+
+### Experience the power of Wezency and take the next step in your career journey today!
