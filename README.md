@@ -13,7 +13,7 @@ To experience Wezency on your local machine, follow these simple steps:
 
 ## Production App URL
 
-For a live version of Wezency, visit our hosted application at https://tranquil-salmiakki-1d088e.netlify.app
+For a live version of Wezency, visit our hosted application at https://wezency.netlify.app
 
 ## Explore the Features
 
