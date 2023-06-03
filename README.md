@@ -6,7 +6,7 @@ Welcome to Wezency, a dynamic application designed to enhance your job search an
 
 To experience Wezency on your local machine, follow these simple steps:
 
-1. Clone the repository by running git clone https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-mariyam-rahman.git
+1. Clone the repository by running git clone https://github.com/mariyam-rahman/wezency-client.git
 2. Install the necessary dependencies with npm install
 3. Start the server using npm run dev
 4. Open your preferred browser and visit http://localhost:5174/
